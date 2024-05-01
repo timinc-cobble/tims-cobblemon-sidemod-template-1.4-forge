@@ -18,7 +18,7 @@ class {{SideMod}}Config {
                     .create()
 
                 var config = {{SideMod}}Config()
-                val configFile = File("config/${{{SideMod}}.MOD_ID}.json")
+                val configFile = File("config/$\{{{SideMod}}.MOD_ID}.json")
                 configFile.parentFile.mkdirs()
 
                 if (configFile.exists()) {
