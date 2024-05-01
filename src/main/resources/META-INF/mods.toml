@@ -5,7 +5,7 @@ license = "MIT"
 [[mods]]
 modId = "{{side-mod}}"
 version = "1.4-forge-1.0.2"
-displayName = "{{Side Mod}}"
+displayName = "{{Side_Mod}}"
 description = '''
 {{description}}
 '''
